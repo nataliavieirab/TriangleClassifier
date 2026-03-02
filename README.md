@@ -13,15 +13,7 @@ Este projeto é uma aplicação em **TypeScript** que classifica um triângulo c
     *   **Triângulo Isósceles:** Dois lados são iguais.
     *   **Triângulo Escaleno:** Todos os três lados são diferentes.
 
-## Tecnologias Utilizadas
-
-*   **TypeScript:** Linguagem de programação principal.
-*   **Node.js:** Ambiente de execução para o JavaScript (e TypeScript compilado).
-*   **npm:** Gerenciador de pacotes para as dependências do projeto.
-
 ## Estrutura do Projeto
-
-O projeto está organizado da seguinte forma:
 
 ```
 TriangleClassifier/
@@ -38,10 +30,6 @@ TriangleClassifier/
 ```
 
 ## Como Rodar o Projeto
-
-### Pré-requisitos
-
-Certifique-se de ter o **Node.js** e o **npm** instalados em seu sistema.
 
 ### Instalação
 
@@ -66,13 +54,9 @@ Certifique-se de ter o **Node.js** e o **npm** instalados em seu sistema.
 
 ### Execução
 
-Após a instalação e compilação, você pode executar a aplicação:
-
 ```bash
 node dist/index.js
 ```
-
-O programa solicitará que você insira os três lados do triângulo.
 
 ### Exemplos de Uso
 
