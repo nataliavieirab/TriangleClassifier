@@ -39,11 +39,9 @@ TriangleClassifier/
 
 ## Como Rodar o Projeto
 
-Siga os passos abaixo para configurar e executar o projeto em sua máquina local.
-
 ### Pré-requisitos
 
-Certifique-se de ter o **Node.js** e o **npm** instalados em seu sistema. Você pode baixá-los em [nodejs.org](https://nodejs.org/).
+Certifique-se de ter o **Node.js** e o **npm** instalados em seu sistema.
 
 ### Instalação
 
@@ -74,7 +72,7 @@ Após a instalação e compilação, você pode executar a aplicação:
 node dist/index.js
 ```
 
-O programa solicitará que você insira os três lados do triângulo. Digite um número por vez e pressione Enter.
+O programa solicitará que você insira os três lados do triângulo.
 
 ### Exemplos de Uso
 
