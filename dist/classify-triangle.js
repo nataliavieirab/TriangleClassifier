@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = classifyTriangle;
 const utils_1 = require("./utils");
 function classifyTriangle(a, b, c) {
-    if ((0, utils_1.hasNegativeNumbers)(a, b, c)) {
+    if ((0, utils_1.containsOnlyPositiveNumbers)(a, b, c)) {
         if ((0, utils_1.isTriangleValid)(a, b, c)) {
             if ((0, utils_1.isEquilateral)(a, b, c)) {
                 return "\nTriângulo Equilátero!";

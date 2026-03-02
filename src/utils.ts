@@ -1,7 +1,11 @@
-export function hasNegativeNumbers(a: number, b: number, c: number): boolean {
+export function containsOnlyPositiveNumbers(
+  a: number,
+  b: number,
+  c: number,
+): boolean {
   const triangleSides = [a, b, c];
   for (const side of triangleSides) {
-    if (side < 0) {
+    if (side <= 0) {
       return false;
     }
   }

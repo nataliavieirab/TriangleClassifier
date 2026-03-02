@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.hasNegativeNumbers = hasNegativeNumbers;
+exports.containsOnlyPositiveNumbers = containsOnlyPositiveNumbers;
 exports.isTriangleValid = isTriangleValid;
 exports.isEquilateral = isEquilateral;
 exports.isIsosceles = isIsosceles;
 exports.isScalene = isScalene;
-function hasNegativeNumbers(a, b, c) {
+function containsOnlyPositiveNumbers(a, b, c) {
     const triangleSides = [a, b, c];
     for (const side of triangleSides) {
-        if (side < 0) {
+        if (side <= 0) {
             return false;
         }
     }

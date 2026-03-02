@@ -1,5 +1,5 @@
 import {
-  hasNegativeNumbers,
+  containsOnlyPositiveNumbers,
   isEquilateral,
   isIsosceles,
   isScalene,
@@ -7,7 +7,7 @@ import {
 } from "./utils";
 
 export default function classifyTriangle(a: number, b: number, c: number) {
-  if (hasNegativeNumbers(a, b, c)) {
+  if (containsOnlyPositiveNumbers(a, b, c)) {
     if (isTriangleValid(a, b, c)) {
       if (isEquilateral(a, b, c)) {
         return "\nTriângulo Equilátero!";
